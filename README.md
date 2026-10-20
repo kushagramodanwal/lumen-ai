@@ -1,6 +1,6 @@
-# ResolveAI
+# LumenAI
 
-ResolveAI is an AI customer support copilot that combines retrieval-augmented generation, an agent-based decision workflow, and a lightweight confidence model to answer support queries over company documents.
+LumenAI is an AI customer support copilot that combines retrieval-augmented generation, an agent-based decision workflow, and a lightweight confidence model to answer support queries over company documents.
 
 Users can upload PDF knowledge-base documents, ask questions grounded in those documents, and trigger support-style actions such as refund processing, order lookup, or ticket creation through an agent with tool calling. A logistic regression model estimates confidence from retrieval quality and query length so uncertain responses can be escalated.
 
@@ -137,4 +137,5 @@ Run frontend build validation:
 cd frontend
 npm run build
 ```
+
 # lumen-ai
