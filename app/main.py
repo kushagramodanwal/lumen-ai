@@ -5,13 +5,14 @@ from app.routes import chat, upload, health
 
 load_dotenv()
 
-app = FastAPI(title = "AI Resolver")
+app = FastAPI(title="AI Resolver")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://lumen-ai-lovat.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
